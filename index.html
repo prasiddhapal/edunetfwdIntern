@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasiddha Pal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Prasiddha Pal</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I’m Prasiddha Pal <br> <span>Cybersecurity Enthusiast & Future Cloud Security Specialist</span></h1>
+            <p>Exploring digital defense, one exploit at a time.</p><br>
+            <div class="home-buttons">
+                <a href="#projects" class="btn neon-btn">View My Projects</a>
+                <a href="#contact" class="btn neon-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm a highly driven 3rd-year CSE student passionate about cybersecurity, specializing in network defense, ethical hacking, and cryptography. I love exploring how systems fail and building resilient defenses. Currently focused on cloud security and digital forensics.</p>
+                <h3>Education</h3>
+                <ul>
+                    <li>Diploma in CSE, MMIT (2021–2024)</li>
+                    <li>B.Tech in CSE, KIET Ghaziabad (2024–2027)</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                <img src="pra.webp" alt="Prasiddha Pal">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-cards">
+            <div class="card neon-card">
+                <h3>Cyber Security Intern — ShadowFox</h3>
+                <span>Mar 2025 – Apr 2025 | Remote</span>
+                <p>Tools: Python, Burp Suite, John the Ripper, Jupyter</p>
+                <ul>
+                    <li>Performed network reconnaissance and port scanning</li>
+                    <li>Executed directory brute-forcing and vulnerability mapping</li>
+                </ul>
+            </div>
+            <div class="card neon-card">
+                <h3>Data Science & ML Intern — YBI Foundation</h3>
+                <span>May 2025 – Jun 2025 | Remote</span>
+                <p>Tools: Python, R, Jupyter</p>
+                <ul>
+                    <li>Applied ML algorithms and AI models to solve real-world problems</li>
+                    <li>Conducted data preprocessing and model evaluation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h4>Java</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Python</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>SQL</h4>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                </div>
+            </div>
+            <!-- Add more skills similarly -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card neon-card">
+                <h3>Link Fraud Detection</h3>
+                <p>Python, XGBoost — Built ML pipeline for malicious URL detection.</p>
+            </div>
+            <div class="project-card neon-card">
+                <h3>Password Strength Checker</h3>
+                <p>Python, Tkinter — Desktop app evaluating password strength in real-time.</p>
+            </div>
+            <div class="project-card neon-card">
+                <h3>AI-Powered Fraud Detection</h3>
+                <p>Python, scikit-learn — AI model to detect fraudulent activity with detailed metrics.</p>
+            </div>
+            <div class="project-card neon-card">
+                <h3>Event Booking System</h3>
+                <p>Python, Django, SQL — Full-stack booking platform with authentication & RBAC.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Email: prasiddhapal@gmail.com</p>
+                <p>Phone: +91 9548252716</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/prasiddha-pal" target="_blank">linkedin.com/in/prasiddha-pal</a></p>
+                <p>GitHub: <a href="https://github.com/prasiddhapal" target="_blank">github.com/prasiddhapal</a></p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn neon-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
